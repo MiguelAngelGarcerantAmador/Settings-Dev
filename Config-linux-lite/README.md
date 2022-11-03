@@ -1,0 +1,1 @@
+# Settings - .bashrc linux lite
