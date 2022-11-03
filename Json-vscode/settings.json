@@ -1,0 +1,147 @@
+{
+  //Establecimiento de configuracion de VSCode
+
+  //configuracion de Editor de VSCode
+  "files.autoSave": "afterDelay", //Guarda los archivos automaticamente
+  "editor.fontFamily": "'Cascadia Code', 'Mononoki Nerd Font', Jetbrains Mono, monospace", // Establecimiento de fuentes para programar
+  "editor.bracketPairColorization.enabled": true, //Habilita la colorización de los brackets
+  "editor.tabSize": 4, //Establece la cantidad de tab para la indentación del codigo
+  "editor.wordWrap": "on", //Establecimiento de ajuste de palabras al tamaño de pantalla
+  "editor.fontSize": 18, //Tamaño de la Fuente
+  "editor.fontLigatures": true, //Establece caracteres especiales de las Fuentes
+  "editor.cursorBlinking": "expand", //Parpadeo de cursor
+  "editor.lineHeight": 25, //Espacios entre lineas de codigo
+  "editor.fontWeight": "600", //Fuente en Negrita
+  "editor.guides.bracketPairs": true, //Lineas guias que ayudan a saber en donde se esta trabajando
+  "editor.inlineSuggest.enabled": true, //habilita sugerecias alineadas al editor
+  "editor.linkedEditing": true,
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "telemetry.telemetryLevel": "off",
+  //Fin de la configuracion de Editor de VSCode
+
+  //Themes or Temas para VSCode
+  "oneDarkPro.editorTheme": "One Dark Pro Darker",
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  //End of settings Themes for VSCode
+
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Bearded Theme Arc Reversed",
+  "workbench.sideBar.location": "right",
+  "workbench.activityBar.visible": false,
+  "workbench.editor.untitled.hint": "hidden",
+  "workbench.editor.languageDetection": true, //Establece el tipo de lenguaje de Documento, si no se ha especificado
+
+  // Personalizacion de los Brackets en VSCode
+  "workbench.colorCustomizations": {
+    "editorBracketHighlight.foreground1": "#ffff00",
+    "editorBracketHighlight.foreground2": "#d500f9",
+    "editorBracketHighlight.foreground3": "#1a7bea",
+    "editorBracketHighlight.foreground4": "#6bf1e4",
+    "editorBracketHighlight.foreground5": "#ff4a8d",
+    "editorBracketHighlight.foreground6": "#ffa726",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#db6165"
+  }, // Fin de la Personalizacion de los Brackets en VSCode
+
+  // Personalizacion de la Terminal
+  "terminal.integrated.fontFamily": "'Hack NF','Fira Code',CaskaydiaCove NF",
+  "terminal.integrated.fontSize": 16, //Tamaño fuente de la terminal
+  "terminal.integrated.fontWeight": "bold",
+  "terminal.integrated.fontWeightBold": "bold",
+  "terminal.integrated.cursorStyle": "underline",
+  "terminal.integrated.cursorWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.tabs.enableAnimation": false,
+  // Fin de la personalizacion de la terminal
+  // Settings error lens
+  "errorLens.enabled": true,
+  "errorLens.fontFamily": "'Cascadia Code', 'Mononoki Nerd Font', Jetbrains Mono, monospace",
+  "errorLens.fontSize": "15.5px",
+  "errorLens.fontWeight": "bold",
+  "errorLens.statusBarIconsEnabled": true,
+  "errorLens.enableOnDiffView": true,
+  "errorLens.fontStyleItalic": true,
+  // Fin Settings error lens
+
+  "versionlens.suggestions.showOnStartup": true, //Mostrar el las versiones de las librerias usadas en los proyectos
+  "path-intellisense.extensionOnImport": true, //Autocompletado de path para importar archivos
+
+  //configuracion de Better Comments
+  "better-comments.multilineComments": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#ff5252",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#ffda79",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#ff793f",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#b2bec3",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ], // Fin de configuracion de Better Comments
+
+  "auto-rename-tag.activationOnLanguage": ["html", "xml", "php", "javascript"],
+  "html.autoClosingTags": true,
+  "html.format.wrapLineLength": 1000,
+  "html.format.wrapAttributes": "preserve",
+
+  "prettier.enable": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "editor.formatOnPaste": true,
+
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+
+  "html-css-class-completion.enableEmmetSupport": true,
+  "cSpell.language": "es,en",
+
+  "tabnine.experimentalAutoImports": true
+}
